@@ -7,17 +7,15 @@
 </p>
 
 ## Install
-1. Make sure [NvChad](https://nvchad.com/docs/quickstart/install) is installed.
-2. Clone Git Repository:
+1. Make sure [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and [NvChad](https://nvchad.com/docs/quickstart/install) are installed.
+2. Clone repository and remove old config:
 
 Linux / MacOS
 ```bash
-git clone https://github.com/teraprath/nvim-config ~/.config/nvim/lua/custom --depth 1
+rm -rf ~/.config/nvim/lua/custom && git clone https://github.com/teraprath/nvim-config ~/.config/nvim/lua/custom --depth 1 && nvim
 ```
 Windows
-```powershell
-git clone https://github.com/teraprath/nvim-config.git $HOME\AppData\Local\nvim\lua\custom --depth 1
+```bash
+rd -r $HOME\AppData\Local\nvim\lua\custom && git clone https://github.com/teraprath/nvim-config.git $HOME\AppData\Local\nvim\lua\custom --depth 1 && nvim
 ```
-## Language Server
-- [csharp-ls](https://github.com/razzmatazz/csharp-language-server)
-- [tsserver](https://github.com/typescript-language-server/typescript-language-server)
+3. Run `:NvChadUpdate`. Done!
