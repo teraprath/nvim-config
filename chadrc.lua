@@ -30,10 +30,10 @@ M.ui = {
       "╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝",
     },
     buttons = {
-      { "  Search File", "<leader> + ff", "Telescope find_files" },
-      { "󰈚  Open Recent Files", "<leader> + fo", "Telescope oldfiles"},
-      { "  Bookmarks", "<leader> + fm", "Telescope marks" },
-      { "  Mappings", "<leader> + h", "NvCheatsheet" },
+      { "  Search File", "<spc> + ff", "Telescope find_files" },
+      { "󰈚  Open Recent Files", "<spc> + fo", "Telescope oldfiles"},
+      { "  Bookmarks", "<spc> + fm", "Telescope marks" },
+      { "  Mappings", "<spc> + h", "NvCheatsheet" },
     },
   },
 }
