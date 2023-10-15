@@ -5,8 +5,8 @@ local M = {}
 local highlights = require "custom.highlights"
 
 M.ui = {
-  theme = "ayu_dark",
-  theme_toggle = { "ayu_dark", "ayu_dark" },
+  theme = "bearded-arc",
+  theme_toggle = { "bearded-arc", "bearded-arc" },
   transparency = TRANSPARENT,
   statusline = {
     separator_style = "arrow",
@@ -32,8 +32,8 @@ M.ui = {
     buttons = {
       { "  Search File", "<leader> + ff", "Telescope find_files" },
       { "󰈚  Open Recent Files", "<leader> + fo", "Telescope oldfiles"},
-      { "  Bookmarks", "<leader> + ma", "Telescope marks" },
-      { "  Mappings", "<leader> + ch", "NvCheatsheet" },
+      { "  Bookmarks", "<leader> + fm", "Telescope marks" },
+      { "  Mappings", "<leader> + h", "NvCheatsheet" },
     },
   },
 }
