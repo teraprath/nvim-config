@@ -48,9 +48,6 @@ M.mason = {
     "csharp-language-server",
     "csharpier",
 
-    -- java stuff
-    "java-language-server",
-
     -- python stuff
     "python-lsp-server",
     "pylint",
