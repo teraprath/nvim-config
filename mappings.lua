@@ -173,23 +173,35 @@ M.lsp = {
 M.terminal = {
   n = {
     ["<leader>t"] = {"Terminal"},
-    ["<leader>th"] = {
-      function()
-        require("nvterm.terminal").new "horizontal"
-      end,
-      "Horiontal terminal"
-    },
-    ["<leader>tv"] = {
-      function()
-        require("nvterm.terminal").new "vertical"
-      end,
-      "Vertical terminal"
-    },
     ["<leader>tf"] = {
       function()
         require("nvterm.terminal").toggle "float"
       end,
-      "Floating terminal"
+      "Toggle floating terminal"
+    },
+    ["<leader>th"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "Toggle horiontal terminal"
+    },
+    ["<leader>tH"] = {
+      function()
+        require("nvterm.terminal").new "horizontal"
+      end,
+      "New horizontal terminal"
+    },
+    ["<leader>tv"] = {
+      function()
+        require("nvterm.terminal").toggle "vertical"
+      end,
+      "Toggle vertical terminal"
+    },
+    ["<leader>tV"] = {
+      function()
+        require("nvterm.terminal").new "vertical"
+      end,
+      "New vertical terminal"
     }
   }
 }
