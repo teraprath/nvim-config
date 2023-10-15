@@ -18,4 +18,4 @@ Windows
 ```bash
 rd -r $HOME\AppData\Local\nvim\lua\custom && git clone https://github.com/teraprath/nvim-config.git $HOME\AppData\Local\nvim\lua\custom && nvim
 ```
-3. Run `:NvChadUpdate`. Done!
+3. Run `:MasonInstallAll`. Done!
