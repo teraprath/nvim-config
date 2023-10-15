@@ -7,10 +7,13 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
+    "vue",
     "typescript",
     "tsx",
     "c",
     "c_sharp",
+    "java",
+    "python",
     "markdown",
     "markdown_inline",
   },
@@ -34,11 +37,23 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+    "vue-language-server",
+    "angular-language-server",
 
     -- c/cpp stuff
     "clangd",
     "clang-format",
-    "csharp-language-server"
+
+    -- dotnet stuff
+    "csharp-language-server",
+    "csharpier",
+
+    -- java stuff
+    "java-language-server",
+
+    -- python stuff
+    "python-lsp-server",
+    "pylint",
   },
 }
 

@@ -7,7 +7,7 @@
 -- })
 
 TABSIZE = 2
-TRANSPARENT = true
+TRANSPARENT = false
 
 vim.opt.tabstop = TABSIZE
 vim.opt.shiftwidth = TABSIZE
