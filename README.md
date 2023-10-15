@@ -12,10 +12,10 @@
 
 Linux / MacOS
 ```bash
-rm -rf ~/.config/nvim/lua/custom && git clone https://github.com/teraprath/nvim-config ~/.config/nvim/lua/custom --depth 1 && nvim
+rm -rf ~/.config/nvim/lua/custom && git clone https://github.com/teraprath/nvim-config ~/.config/nvim/lua/custom && nvim
 ```
 Windows
 ```bash
-rd -r $HOME\AppData\Local\nvim\lua\custom && git clone https://github.com/teraprath/nvim-config.git $HOME\AppData\Local\nvim\lua\custom --depth 1 && nvim
+rd -r $HOME\AppData\Local\nvim\lua\custom && git clone https://github.com/teraprath/nvim-config.git $HOME\AppData\Local\nvim\lua\custom && nvim
 ```
 3. Run `:NvChadUpdate`. Done!
